@@ -1,0 +1,26 @@
+{
+  "name": "simple-coins",
+  "version": "0.0.1",
+  "description": "A simple script to pull crypo-currency information from coinmarketcap.com, and format for charting libraries (charts.js).",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-fetch": "^1.7.3"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owainharris/simple-coins.git"
+  },
+  "keywords": [
+    "crypto"
+  ],
+  "author": "Owain Harris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owainharris/simple-coins/issues"
+  },
+  "homepage": "https://github.com/owainharris/simple-coins#readme"
+}
