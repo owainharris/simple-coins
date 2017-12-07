@@ -7,5 +7,5 @@ To install:
 2. Install node.js
 3. Run: ```node index.js```
 
-[logo]: https://github.com/owainharris/simple-coins/blob/master/example_output.png "example output"
 
+![example output](https://github.com/owainharris/simple-coins/blob/master/example_output.png "Optional title")
