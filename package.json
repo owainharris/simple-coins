@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "A simple script to pull crypo-currency information from coinmarketcap.com, and format for charting libraries (charts.js).",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "chart.js": "^2.7.1"
+  },
   "devDependencies": {
     "node-fetch": "^1.7.3"
   },
