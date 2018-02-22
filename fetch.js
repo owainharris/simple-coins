@@ -17,8 +17,13 @@ fetch(url)
         updated: item.last_updated
       };
     });
-    let reducedCoins = allCoins.filter(coins => coins.id == "bitcoin" || coins.id == "ethereum" || coins.id == "litecoin");
+    let reducedCoins = allCoins.filter(
+      coins =>
+        coins.id == "bitcoin" ||
+        coins.id == "ethereum" ||
+        coins.id == "litecoin"
+    );
 
-	var output = Array.prototype.slice.call(reducedCoins);
-  console.log(output); 
+    var output = Array.prototype.slice.call(reducedCoins);
+    console.log(output);
   });
